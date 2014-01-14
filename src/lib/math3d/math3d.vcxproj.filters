@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Vector2">
+      <UniqueIdentifier>{1d624914-be1b-4702-8795-27cc907115ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vector3">
+      <UniqueIdentifier>{32883b80-daac-4af1-9519-240170cfe704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vector4">
+      <UniqueIdentifier>{6be09709-b60b-4d59-b1d1-dd5c4c0d328b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quaternion">
+      <UniqueIdentifier>{0316e5a1-c447-468b-95c4-d5c38c2e97cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Matrix">
+      <UniqueIdentifier>{8cf0efd5-0ea8-4f7f-b7d7-5b1a1f015f73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plane">
+      <UniqueIdentifier>{a6c979e1-a955-4cf4-a32c-f7e4cb3d22bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Vector2</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Vector3</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector4.cpp">
+      <Filter>Vector4</Filter>
+    </ClCompile>
+    <ClCompile Include="Quaternion.cpp">
+      <Filter>Quaternion</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>Plane</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vector2.h">
+      <Filter>Vector2</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Vector3</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4.h">
+      <Filter>Vector4</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>Quaternion</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="math_def.h" />
+    <ClInclude Include="math_type_base.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+</Project>

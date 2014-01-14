@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "math3d", "math3d.vcproj", "{12904BF1-1C25-4081-B584-8B536AC19610}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Hybrid = Hybrid
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{12904BF1-1C25-4081-B584-8B536AC19610}.Debug.ActiveCfg = Debug|Win32
+		{12904BF1-1C25-4081-B584-8B536AC19610}.Debug.Build.0 = Debug|Win32
+		{12904BF1-1C25-4081-B584-8B536AC19610}.Hybrid.ActiveCfg = Hybrid|Win32
+		{12904BF1-1C25-4081-B584-8B536AC19610}.Hybrid.Build.0 = Hybrid|Win32
+		{12904BF1-1C25-4081-B584-8B536AC19610}.Release.ActiveCfg = Release|Win32
+		{12904BF1-1C25-4081-B584-8B536AC19610}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
